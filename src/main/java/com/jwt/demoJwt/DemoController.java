@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping("/demo")
+    @GetMapping("/demos")
     public ResponseEntity<String> demo() {
          return ResponseEntity.ok("Hello from secret url  ");
 
